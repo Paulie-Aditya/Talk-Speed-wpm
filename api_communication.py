@@ -65,7 +65,7 @@ def save_transcript(audio_url,filename):
         with open(text_filename,"w") as f:
             f.write(data["text"])
         print("Transcription Saved!")
-        return len(data["text"])
+        return len(data["text"].split(" "))
     elif error:
         print("Error!!", error)
         return 0

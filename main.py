@@ -3,7 +3,7 @@
 import wave
 from api_communication import *
 
-filename = "fight_club.wav"
+filename = "input.wav"
 
 obj = wave.open(filename,"rb")
 
